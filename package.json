@@ -1,0 +1,14 @@
+{
+  "name": "medichain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Blockchain-Based Medical Record System",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:blockchain": "npm --prefix blockchain run node"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}
